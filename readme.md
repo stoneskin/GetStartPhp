@@ -1,15 +1,28 @@
 ## Get Start of PHP
 
-### 1 install php [reference](https://www.geeksforgeeks.org/how-to-install-php-in-windows-10/)
+### 1 install php
 
-1.1 download from <https://windows.php.net/download>
+1.1 install PHP with MySql
+
+  for beginner, could try install `XAMPP`, check details in [2.mysql](2.mysql.md) about how install mysql with php
+
+1.2 install PHP only
+
+ [Reference] <https://www.geeksforgeeks.org/how-to-install-php-in-windows-10/>
+
+  - a. download from <https://windows.php.net/download>
     - select non thread safe window  `VS16 x64 Non Thread Safe`
-  
-1.2 unzip to c:\php folder
+  - b. unzip to c:\php folder
 
-1.3 Add c:\php to system environment Path
-
-### 2 install vscode php extension 
+1.3 Add PHP path to system environment
+  - Through XAMPP, your php folder will be C:\xampp\php
+  - Add c:\php or C:\xampp\php to system environment Path for php used for other apps like VsCode
+  - click on Start Menu and search “Edit the system environment variables” and open it
+  - After opening System, Variable New window appears, and click on “Environment Variables…”
+  ![](https://media.geeksforgeeks.org/wp-content/uploads/20220101095323/12.PNG)
+  - Then open command prompt, run `php -v`
+  ![](php-v.png)
+### 2 install vscode php extension
 
 2.1 install the `Php Server`
 2.2 install `PHP` (All-in-One PHP support)
@@ -51,3 +64,7 @@
 
 - Form example 2 (self post)
   - [form_self.php](./1_form/form_self.php)
+
+## Install MySql
+
+   [check 2.MySql](2.mysql.md)
