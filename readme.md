@@ -65,6 +65,6 @@
 - Form example 2 (self post)
   - [form_self.php](./1_form/form_self.php)
 
-## Install MySql
+## Install MySql and Use MySql examples
 
    [check 2.MySql](2.mysql.md)
