@@ -35,6 +35,8 @@ you could lear how to use XAMPP through youtube tutorial
 
   - you may need change apache port if port 80 is not available <https://www.youtube.com/watch?v=E9bLYwcuiSk>
   - you could find or add the php code in c:\xampp\htdocs and visit the site by http://localhost:8080 (if you change port to 8080)
+  - you also need change the XAMPP admin service port to use your new port, (*you need run xampp with `run as administrator` if you got permission deny error.* )
+  ![](./xampp_update_admin_service_port.png)
 
 - 4 Oen the mySql admin ui `phpMyAdmin`
 ![phpMyAdmin](./xampp_phpMyAdmin.png) 
