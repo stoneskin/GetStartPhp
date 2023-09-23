@@ -39,3 +39,9 @@
   - 4. A From to insert new rows to database table [insertRow_test.php](./2_mySql/insertRow_test.php)
   - 5. Test page to load table row from database [getData_test.php](./2_mySql/GetData_test.php)
   - 6. Html and Table example [GetStudents](./2_mySql/GetStudents_HtmlTableSample.php) 
+
+## 3 Resource to Learn Php and MySql
+
+- Learn PHP [https://www.w3schools.com/php/](https://www.w3schools.com/php/default.asp)
+- PHP MySql DB [https://www.w3schools.com/php_mysql](https://www.w3schools.com/php/php_mysql_intro.asp)
+- Learn MySql in 7 Days [https://www.guru99.com/mysql-tutorial](https://www.guru99.com/mysql-tutorial.html)
