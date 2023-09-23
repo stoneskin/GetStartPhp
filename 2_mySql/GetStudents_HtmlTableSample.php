@@ -55,7 +55,7 @@ if ($result->num_rows > 0) {
 <?php
   
 } else {
-  echo "0 results";
+  echo "<p>0 results</p>";
 }
 $conn->close();
 ?>
