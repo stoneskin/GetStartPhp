@@ -28,7 +28,9 @@
 ## 2 [Get Start MySql](2.mysql.md)
 
 - 2.1 [Install mySql](2.mysql.md)
+  - [InsallXAMPP](./install_XAMPP.md)
 - 2.2 [MySql Admin UI](2.mysql.md)
+  - [How to use XAMPP](./XAMPP_howto.md)
 - 2.3 [Learn MySql and Php](2.mysql.md)
 - 2.4 [Php MySql Code examples](2.mysql.md)
   - 1. Check mySql connect [code](./2_mySql/mySqlConect_test.php)
