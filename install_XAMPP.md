@@ -17,3 +17,5 @@
 
     - you may need change apache port if port 80 is not avaliable <https://www.youtube.com/watch?v=E9bLYwcuiSk>
     - you could find or add the php code in c:\xampp\htdocs and visit the site by http://localhost:8080 (if you change port to 8080)
+
+## Check more on [How to User XAMPP](./XAMPP_howto.md)
