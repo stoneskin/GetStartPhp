@@ -3,9 +3,9 @@
 ## 1  [Get Start Php](./1.getStartPhp.md)
 
 - 1.1 [install php](./1.getStartPhp.md)
-    - [install XAMPP](install_XAMPP.md)
+    - [install XAMPP](./XAMPP/install_XAMPP.md)
 
-    - [Add PHP path to system environment](config_php.md)
+    - [Add PHP path to system environment](./1_getStartPhp/config_php.md)
 
 - 1.2 [install vscode php extension](./1.getStartPhp.md)
 
@@ -13,24 +13,24 @@
 
 - 1.4 Php code examples
   - Basic samples
-    - [index.php](./index.php)
-    - [array](./samples_array.php)
-    - [class](./samples_class.php)
-    - [Json](./samples_json.php)
+    - [index.php](./1_getStartPhp/index.php)
+    - [array](./1_getStartPhp/samples_array.php)
+    - [class](./1_getStartPhp/samples_class.php)
+    - [Json](./1_getStartPhp/samples_json.php)
 
   - Form example 1 (2 page)
-    - [form_welcome.php](./1_form/form_welcome.php)
-    - [welcome.php](./1_form/welcome.php)
+    - [form_welcome.php](./1_getStartPhp/sample_form/form_welcome.php)
+    - [welcome.php](./1_getStartPhp/sample_form/welcome.php)
 
   - Form example 2 (self post)
-    - [form_self.php](./1_form/form_self.php)
+    - [form_self.php](./1_getStartPhp/sample_form/form_self.php)
 
 ## 2 [Get Start MySql](2.mysql.md)
 
 - 2.1 [Install mySql](2.mysql.md)
-  - [InsallXAMPP](./install_XAMPP.md)
+  - [InsallXAMPP](./XAMPP/install_XAMPP.md)
 - 2.2 [MySql Admin UI](2.mysql.md)
-  - [How to use XAMPP](./XAMPP_howto.md)
+  - [How to use XAMPP](./XAMPP/XAMPP_howto.md)
 - 2.3 [Learn MySql and Php](2.mysql.md)
 - 2.4 [Php MySql Code examples](2.mysql.md)
   - 1. Check mySql connect [code](./2_mySql/mySqlConect_test.php)
