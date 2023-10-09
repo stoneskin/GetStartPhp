@@ -23,10 +23,10 @@ $isPost=($_SERVER["REQUEST_METHOD"] == "POST");
         $error="";
 
         // validation
-        if(isset($uname) || empty($uname )){
+        if(!isset($uname) || empty($uname )){
             $error= "username is required!";
         }        
-        if(isset($pwd) || empty($pwd)){
+        if(!isset($pwd) || empty($pwd)){
             $error= "password is required!";
         }
 
@@ -39,8 +39,10 @@ $isPost=($_SERVER["REQUEST_METHOD"] == "POST");
             $result = $conn->query($sql);  
             if ($result->num_rows > 0) {
                 $row = $result->fetch_assoc();
-                $id=$row['Id'];
-                echo "<p>Welcome '.$uname.', your id is {$id} <br>";
+                $id=$row['ID'];
+                echo "<p>Welcome $uname, your id is {$id} <br>";
+            }else{
+                echo "no result found!";
             }
             
         }  
